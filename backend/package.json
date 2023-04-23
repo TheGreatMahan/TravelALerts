@@ -1,0 +1,25 @@
+{
+    "name": "case1",
+    "version": "1.0.0",
+    "description": "Info3139 Casestudy 1",
+    "main": "app.js",
+    "author": "Evan",
+    "license": "ISC",
+    "engines": {
+        "node": "16.13"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "date-fns": "^2.25.0",
+        "dotenv": "^10.0.0",
+        "fastify": "^3.27.1",
+        "fastify-cors": "^6.0.3",
+        "fastify-static": "^4.5.0",
+        "got": "^11.8.2",
+        "graphql": "^15.8.0",
+        "mercurius": "^8.12.0",
+        "mongodb": "^4.3.1"
+    }
+}
